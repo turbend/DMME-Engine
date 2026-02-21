@@ -1,0 +1,59 @@
+# Build directories
+build/
+out/
+Debug/
+Release/
+MinSizeRel/
+RelWithDebInfo/
+cmake-build-*/
+
+# IDE and Editor files
+.vs/
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.user
+*.suo
+*.sln.DotSettings
+CMakeSettings.json
+
+# CMake
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+CTestTestfile.cmake
+
+# Logs
+logs/*.log
+*.log
+
+# Build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.exe
+*.dylib
+*.so
+
+# vcpkg
+vcpkg_installed/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+.directory
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+.#*
+
+# Dependencies
+/packages/
+/installed/
